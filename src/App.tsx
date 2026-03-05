@@ -3,10 +3,15 @@
  * @license Apache-2.0
  */
 
-import { Button } from "./components/ui/button"
+/**
+ * Node modules
+ */
+import { useEffect } from 'react';
+
+import { Button } from './components/ui/button';
 
 export const App = () => {
   return (
-      <Button>Click me</Button>
-  )
-}
+    <main className='flex flex-col container mx-auto p-10 max-w-4xl lg:pr-10 lg:pl-0 lg:max-w-6xl'></main>
+  );
+};
