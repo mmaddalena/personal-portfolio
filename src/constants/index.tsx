@@ -91,7 +91,7 @@ const socialLinks: LinksType[] = [
 
 const projectsData: ProjectType[] = [
   {
-    imgSrc: 'personal-portfolio/images/project-ph-1.jpg',
+    imgSrc: `${import.meta.env.BASE_URL}images/project-ph-1.jpg`,
     title: 'Full stack real time chat',
     tags: ['Elixir', 'VueJS', 'Development', 'API'],
     projectLink: 'https://echo-host.onrender.com/login',
@@ -137,35 +137,35 @@ const experience: ExperienceType[] = [
 const tools: ToolsType[] = [
   {
     label: 'Figma',
-    imgSrc: 'personal-portfolio/images/tools/figma.svg',
+    imgSrc: `${import.meta.env.BASE_URL}images/tools/figma.svg`,
   },
   {
     label: 'CSS',
-    imgSrc: 'personal-portfolio/images/tools/css3.svg',
+    imgSrc: `${import.meta.env.BASE_URL}images/tools/css3.svg`,
   },
   {
     label: 'Tailwind CSS',
-    imgSrc: 'personal-portfolio/images/tools/tailwindcss.svg',
+    imgSrc: `${import.meta.env.BASE_URL}images/tools/tailwindcss.svg`,
   },
   {
     label: 'React',
-    imgSrc: 'personal-portfolio/images/tools/react.svg',
+    imgSrc: `${import.meta.env.BASE_URL}images/tools/react.svg`,
   },
   {
     label: 'JavaScript',
-    imgSrc: 'personal-portfolio/images/tools/javascript.svg',
+    imgSrc: `${import.meta.env.BASE_URL}images/tools/javascript.svg`,
   },
   {
     label: 'Node.js',
-    imgSrc: 'personal-portfolio/images/tools/nodejs.svg',
+    imgSrc: `${import.meta.env.BASE_URL}images/tools/nodejs.svg`,
   },
   {
     label: 'Express.js',
-    imgSrc: 'personal-portfolio/images/tools/expressjs.svg',
+    imgSrc: `${import.meta.env.BASE_URL}images/tools/expressjs.svg`,
   },
   {
     label: 'Mongodb',
-    imgSrc: 'personal-portfolio/images/tools/mongodb.svg',
+    imgSrc: `${import.meta.env.BASE_URL}images/tools/mongodb.svg`,
   },
 ];
 

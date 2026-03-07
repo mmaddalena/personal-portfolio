@@ -23,7 +23,7 @@ export const Profile = () => {
         </div>
 
         <img
-          src='personal-portfolio/avatar.jpg'
+          src={`${import.meta.env.BASE_URL}avatar.jpg`}
           alt='Martin'
           className='lg:w-96 rounded-2xl object-cover'
         />
