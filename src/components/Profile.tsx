@@ -23,9 +23,9 @@ export const Profile = () => {
         </div>
 
         <img
-          src='/avatar.jpg'
+          src='personal-portfolio/avatar.jpg'
           alt='Martin'
-          className='lg:w-96 rounded 2xl object-cover'
+          className='lg:w-96 rounded-2xl object-cover'
         />
 
         <div className='mt-6'>
@@ -48,6 +48,8 @@ export const Profile = () => {
               <a
                 key={i}
                 href={social.link}
+                target='_blank'
+                rel='noopener noreferrer'
                 className='hover:text-primary border-2 border-neutral-500 p-2 rounded-full hover:border-primary transition duration-200'
               >
                 <Icon className='size-6' />

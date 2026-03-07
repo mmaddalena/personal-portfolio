@@ -20,7 +20,7 @@ import '@/index.css';
 import { App } from '@/App';
 import { Sidebar } from '@/components/Sidebar';
 import { FloatingMenu } from '@/components/FloatingMenu';
-import { Profile } from './components/Profile';
+import { Profile } from '@/components/Profile';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
