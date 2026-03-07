@@ -45,8 +45,7 @@ export const Resume = () => {
         className='mt-4 text-neutral-300'
       >
         With a solid foundation in software development, I have honed my skills
-        through a combination of formal education and hands-on experience. My
-        educational background includes a degree in Computer Science, where I
+        through a combination of formal education and hands-on experience. I am currently studying Software Engineering, where I
         gained a deep understanding of programming languages, algorithms, and
         software engineering principles. This academic foundation has been
         instrumental in shaping my approach to problem-solving and software

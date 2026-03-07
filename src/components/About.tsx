@@ -53,9 +53,7 @@ export const About = () => {
         variants={fadeUp}
         className='mt-2 text-neutral-300'
       >
-        When I'm not coding, you can find me exploring the latest tech trends,
-        contributing to open-source projects, or indulging in my love for
-        photography. I believe that creativity and technical expertise go hand
+        When I'm not coding, you can find me exploring the latest tech trends or playing volleyball. I believe that creativity and technical expertise go hand
         in hand, and I strive to bring a unique perspective to every project I
         undertake.
       </motion.p>

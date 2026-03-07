@@ -100,37 +100,43 @@ const projectsData: ProjectType[] = [
 
 const education: ExperienceType[] = [
   {
-    year: '2018 – 2020',
-    title: 'Bachelor of Computer Science',
-    institute: 'National University of Technology',
-    desc: 'Focused on front-end development, UI design, and web application architecture.',
+    year: '2020 – 2027',
+    title: 'Software Engineer',
+    institute: 'University of Buenos Aires',
+    desc: 'Focused on programming, algorithms, software design, and database systems',
   },
-  {
-    year: '2021 – 2022',
-    title: 'Frontend Development Bootcamp',
-    institute: 'Udemy / Online Course',
-    desc: 'Learned modern JavaScript, React, and responsive UI patterns through real-world projects.',
-  },
-  {
-    year: '2023',
-    title: 'Advanced UI/UX Design Course',
-    institute: 'Design+Code',
-    desc: 'Explored advanced design systems, motion design, and accessibility best practices.',
-  },
+  // {
+  //   year: '2021 – 2022',
+  //   title: 'Frontend Development Bootcamp',
+  //   institute: 'Udemy / Online Course',
+  //   desc: 'Learned modern JavaScript, React, and responsive UI patterns through real-world projects.',
+  // },
+  // {
+  //   year: '2023',
+  //   title: 'Advanced UI/UX Design Course',
+  //   institute: 'Design+Code',
+  //   desc: 'Explored advanced design systems, motion design, and accessibility best practices.',
+  // },
 ];
 
 const experience: ExperienceType[] = [
+  // {
+  //   year: '2021 – 2022',
+  //   title: 'Frontend Developer Intern',
+  //   institute: 'PixelForge Studio',
+  //   desc: 'Built and optimized responsive websites, collaborating closely with designers and backend teams.',
+  // },
+  // {
+  //   year: '2022 – Present',
+  //   title: 'UI Engineer',
+  //   institute: 'Freelance / Remote Work',
+  //   desc: 'Designed and developed web interfaces for SaaS startups using React, Tailwind, and Figma.',
+  // },
   {
-    year: '2021 – 2022',
-    title: 'Frontend Developer Intern',
-    institute: 'PixelForge Studio',
-    desc: 'Built and optimized responsive websites, collaborating closely with designers and backend teams.',
-  },
-  {
-    year: '2022 – Present',
-    title: 'UI Engineer',
-    institute: 'Freelance / Remote Work',
-    desc: 'Designed and developed web interfaces for SaaS startups using React, Tailwind, and Figma.',
+    year: 'Currently',
+    title: 'Ready to work',
+    institute: '',
+    desc: '',
   },
 ];
 
@@ -138,6 +144,10 @@ const tools: ToolsType[] = [
   {
     label: 'Figma',
     imgSrc: `${import.meta.env.BASE_URL}images/tools/figma.svg`,
+  },
+  {
+    label: 'Html',
+    imgSrc: `${import.meta.env.BASE_URL}images/tools/html.svg`,
   },
   {
     label: 'CSS',
@@ -166,6 +176,46 @@ const tools: ToolsType[] = [
   {
     label: 'Mongodb',
     imgSrc: `${import.meta.env.BASE_URL}images/tools/mongodb.svg`,
+  },
+  {
+    label: 'Python',
+    imgSrc: `${import.meta.env.BASE_URL}images/tools/python.svg`,
+  },
+  {
+    label: 'Elixir',
+    imgSrc: `${import.meta.env.BASE_URL}images/tools/elixir.svg`,
+  },
+  {
+    label: 'C',
+    imgSrc: `${import.meta.env.BASE_URL}images/tools/C.svg`,
+  },
+  {
+    label: 'Java',
+    imgSrc: `${import.meta.env.BASE_URL}images/tools/java.svg`,
+  },
+  {
+    label: 'Git',
+    imgSrc: `${import.meta.env.BASE_URL}images/tools/git.svg`,
+  },
+  {
+    label: 'Github',
+    imgSrc: `${import.meta.env.BASE_URL}images/tools/github.svg`,
+  },
+  {
+    label: 'Docker',
+    imgSrc: `${import.meta.env.BASE_URL}images/tools/docker.svg`,
+  },
+  {
+    label: 'SQL',
+    imgSrc: `${import.meta.env.BASE_URL}images/tools/sql.svg`,
+  },
+  {
+    label: 'Vue',
+    imgSrc: `${import.meta.env.BASE_URL}images/tools/vue.svg`,
+  },
+  {
+    label: 'google cloud',
+    imgSrc: `${import.meta.env.BASE_URL}images/tools/gcp.svg`,
   },
 ];
 
