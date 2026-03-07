@@ -21,21 +21,22 @@ import type {
  */
 import {
   Briefcase,
-  Facebook,
+  // Facebook,
   FileText,
   Globe,
   Home,
   Instagram,
   Layers,
   Mail,
-  MessageCircle,
+  // MessageCircle,
   Palette,
   Rocket,
-  Settings,
+  // Settings,
   Smartphone,
-  Twitter,
+  // Twitter,
   User,
-  Youtube,
+  // Youtube,
+  Linkedin,
 } from 'lucide-react';
 
 const navLinks: LinksType[] = [
@@ -46,67 +47,54 @@ const navLinks: LinksType[] = [
     icon: Briefcase,
   },
   { label: 'About', link: '#about', icon: User },
-  {
-    label: 'Services',
-    link: '#services',
-    icon: Settings,
-  },
+  // {
+  //   label: 'Services',
+  //   link: '#services',
+  //   icon: Settings,
+  // },
   { label: 'Resume', link: '#resume', icon: FileText },
-  {
-    label: 'Reviews',
-    link: '#testimonials',
-    icon: MessageCircle,
-  },
+  // {
+  //   label: 'Reviews',
+  //   link: '#testimonials',
+  //   icon: MessageCircle,
+  // },
   { label: 'Contact', link: '#contact', icon: Mail },
 ];
 
 const socialLinks: LinksType[] = [
+  // {
+  //   icon: Facebook,
+  //   label: 'Facebook',
+  //   link: '/#',
+  // },
   {
-    icon: Facebook,
-    label: 'Facebook',
-    link: '/#',
+    icon: Linkedin,
+    label: 'Linkedin',
+    link: 'https://www.linkedin.com/in/martin-maddalena/',
   },
   {
     icon: Instagram,
     label: 'Instagram',
-    link: '/#',
+    link: 'https://www.instagram.com/martinmaddalena8/',
   },
-  {
-    icon: Twitter,
-    label: 'Twitter',
-    link: '/#',
-  },
-  {
-    icon: Youtube,
-    label: 'Youtube',
-    link: '/#',
-  },
+  // {
+  //   icon: Twitter,
+  //   label: 'Twitter',
+  //   link: '/#',
+  // },
+  // {
+  //   icon: Youtube,
+  //   label: 'Youtube',
+  //   link: '/#',
+  // },
 ];
 
 const projectsData: ProjectType[] = [
   {
-    imgSrc: '/images/project-ph-1.jpeg',
-    title: 'Full stack music app',
-    tags: ['API', 'Development'],
-    projectLink: 'https://musify-5al0.onrender.com/',
-  },
-  {
-    imgSrc: '/images/project-ph-2.jpeg',
-    title: 'Full stack music app',
-    tags: ['API', 'Development'],
-    projectLink: 'https://musify-5al0.onrender.com/',
-  },
-  {
-    imgSrc: '/images/project-ph-3.jpeg',
-    title: 'Full stack music app',
-    tags: ['API', 'Development'],
-    projectLink: 'https://musify-5al0.onrender.com/',
-  },
-  {
-    imgSrc: '/images/project-ph-4.jpeg',
-    title: 'Full stack music app',
-    tags: ['API', 'Development'],
-    projectLink: 'https://musify-5al0.onrender.com/',
+    imgSrc: 'personal-portfolio/images/project-ph-1.jpg',
+    title: 'Full stack real time chat',
+    tags: ['Elixir', 'VueJS', 'Development', 'API'],
+    projectLink: 'https://echo-host.onrender.com/login',
   },
 ];
 
@@ -149,35 +137,35 @@ const experience: ExperienceType[] = [
 const tools: ToolsType[] = [
   {
     label: 'Figma',
-    imgSrc: '/images/tools/figma.svg',
+    imgSrc: 'personal-portfolio/images/tools/figma.svg',
   },
   {
     label: 'CSS',
-    imgSrc: '/images/tools/css3.svg',
+    imgSrc: 'personal-portfolio/images/tools/css3.svg',
   },
   {
     label: 'Tailwind CSS',
-    imgSrc: '/images/tools/tailwindcss.svg',
+    imgSrc: 'personal-portfolio/images/tools/tailwindcss.svg',
   },
   {
     label: 'React',
-    imgSrc: '/images/tools/react.svg',
+    imgSrc: 'personal-portfolio/images/tools/react.svg',
   },
   {
     label: 'JavaScript',
-    imgSrc: '/images/tools/javascript.svg',
+    imgSrc: 'personal-portfolio/images/tools/javascript.svg',
   },
   {
     label: 'Node.js',
-    imgSrc: '/images/tools/nodejs.svg',
+    imgSrc: 'personal-portfolio/images/tools/nodejs.svg',
   },
   {
     label: 'Express.js',
-    imgSrc: '/images/tools/expressjs.svg',
+    imgSrc: 'personal-portfolio/images/tools/expressjs.svg',
   },
   {
     label: 'Mongodb',
-    imgSrc: '/images/tools/mongodb.svg',
+    imgSrc: 'personal-portfolio/images/tools/mongodb.svg',
   },
 ];
 
